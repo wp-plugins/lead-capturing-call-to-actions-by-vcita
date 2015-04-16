@@ -20,7 +20,7 @@ if (defined('VCITA_SERVER_BASE')) {
   define('VCITA_WIDGET_MENU_NAME', 'vCita Lead Capturing');
   define('VCITA_WIDGET_SHORTCODE', 'vCitaMeetingScheduler');
   define('VCITA_CALENDAR_WIDGET_SHORTCODE', 'vCitaSchedulingCalendar');
-  define('VCITA_WIDGET_UNIQUE_ID', 'lead-capturing-call-to-actions');
+  define('VCITA_WIDGET_UNIQUE_ID', 'lead-capturing-call-to-actions-by-vcita');
   define('VCITA_WIDGET_UNIQUE_LOCATION', __FILE__);
   define('VCITA_WIDGET_CONTACT_FORM_WIDGET', 'true');
   define('VCITA_WIDGET_CALENDAR_WIDGET', 'true');
