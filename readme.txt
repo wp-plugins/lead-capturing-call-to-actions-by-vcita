@@ -3,14 +3,13 @@ Contributors: vCita
 Donate link: www.vcita.com?invite=WP-V-AE
 Tags: LiveSite, Capture leads, leads, get leads, pup-up, popup, lead generation, lead nurtoring, mailing list, contact form DB, leads to CRM, lead capture plugin, Contacts, gain contacts, gain subscribers, wordpress to lead, popup contact form, promotions, active engage, vcita, call to actions, call for action, list building, cta, pop-up
 Requires at least: 2.8
-Tested up to: 4.1
-Stable tag: 1.0.0
+Tested up to: 4.2.2
+Stable tag: 1.1.0
 
 License: GPLv2 or later
 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
- 
-Turn your site into a LiveSite: Easily add Calls-to-action to encourage more visitors to contact your business. capture twice as many leads on your site
+Capture twice as many leads on your site! Easily add effective Calls-to-action and encourage more visitors to contact your business. 
 == Description ==
 
 vCita Lead Capturing Call-to-Actions is the ultimate way to capture more leads on your wordpress site.
@@ -35,13 +34,16 @@ LiveSite also helps you in turning more leads into clients with automated action
 * vCIta keeps your complete communication history with every lead and client so you can always go back and see exactly where you stopped.
 * Returning clients to your site are greeted by livesite and can access a private client portal where they can view the communication history, notification of coming meetings, payments and more
 
-**Use vCita online scheduling Wordpress plugin Free version, or try vCita premium packages with 14 day no obligation trial**
+**vCita Calls to action is Free! The plugin connects to your vCita account. You may create a FREE account at vCita directly from the plugin.**
 
 
-= vCita Lead Capruting Call To Actions is now available in the following Languages: = 
+= Translations = 
+vCita Lead Capruting Call To Actions is fully translated to: 
+
 * English
 * Spanish
-* Franch
+* Portuguese
+* French
 * Polish
 * Hebrew
 
@@ -115,5 +117,15 @@ Please visit <a href="http://www.vcita.com/about/privacy_policy?invite=wp-v-schd
 1. **Receive notifications for every new lead**
 
 == Changelog == 
+
+ = Lead Capturing Call To Actions by vCita Version 1.1.0 =
+ * Compatibility with WordPress 4.2
+ * Fixed some bugs
+
  = Lead Capturing Call To Actions by vCita Version 1.0.0 =
-  * Initial Version
+ * Initial Version
+
+== Upgrade Notice ==
+ = Lead Capturing Call To Actions by vCita Version 1.1.0 =
+ * Compatibility with WordPress 4.2
+ * New! Send automated SMS reminders to clients
