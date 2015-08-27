@@ -1,24 +1,25 @@
-﻿=== Lead Generating Calls-To-Action by vCita ===
+﻿=== Active Contact Form & Calls To Action by vCita ===
 Contributors: vCita
 Donate link: www.vcita.com?invite=WP-V-AE
-Tags: LiveSite, Capture leads, leads, get leads, pup-up, popup, lead generation, lead nurtoring, mailing list, contact form DB, leads to CRM, lead capture plugin, Contacts, gain contacts, gain subscribers, wordpress to lead, popup contact form, promotions, active engage, vcita, call to actions, call for action, list building, cta, pop-up, popup, génération de prospect, appels à l’action,  générer  liste de prospects, contacts, plugin pour capture de prospects, capture de prospects,  module de capture de prospects, français, llamar a la acción, captar clientes potenciales, plugin para captar clientes potenciales, clientes potenciales para CRM, lista de correo, promociones, wordpress para clientes potenciales, español, contratação ativa, obter inscrições, obter clientes potenciais, contatos, plugin de obtenção de clientes potenciais, mala direta, promoções, português
+Tags: LiveSite, Capture leads, leads, get leads, pup-up, popup, lead generation, lead nurtoring, mailing list, contact form DB, leads to CRM, email capture, lead capture plugin,  opt-in, opt in, mailing list, Contacts, gain contacts, gain subscribers, wordpress to lead, popup contact form, promotions, active engage, vcita, call to actions, call for action, list building, cta, pop-up, popup, génération de prospect, appels à l’action,  générer  liste de prospects, contacts, plugin pour capture de prospects, capture de prospects,  module de capture de prospects, français, llamar a la acción, captar clientes potenciales, plugin para captar clientes potenciales, clientes potenciales para CRM, lista de correo, promociones, wordpress para clientes potenciales, español, contratação ativa, obter inscrições, obter clientes potenciais, contatos, plugin de obtenção de clientes potenciais, mala direta, promoções, português, engage, Calls-to-action, Call-to-action, newsletter, contact form, form
 
 Requires at least: 2.8
 Tested up to: 4.3
-Stable tag: 1.2.0
+Stable tag: 1.3.0
 
 License: GPLv2 or later
 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Capture twice as many leads on your site! Easily add effective Calls-to-action popup and encourage more visitors to contact your business. 
+
+Active Contact Form & Calls to action is the most effective way to engage with your website visitors and convert them into leads and customers
 == Description ==
 
-vCita Lead Capturing Calls-to-Action is the ultimate way to capture more leads and customers on your WordPress website.
+vCita Active Contact Form Lead Capturing Calls-to-Action is the ultimate way to capture more leads and customers on your WordPress website.
 
-The plugin is designed to actively invite website visitors to engage with your business, and has proven to **double** the number of visitors who end up contacting your team through your website.
+The Active Contact Form & Calls-to-Action plugin is designed to actively invite website visitors to engage with your business, and has proven to **double** the number of visitors who end up contacting your team through your WordPress website.
 
  
-### vCita turns your site into a LiveSite – inviting your clients to take actions on every page on your site: ###
+### vCita Active Contact Form & Calls to action turns your site into a LiveSite – inviting your clients to take actions on every page on your site: ###
 
 *       Contact or leave details
 *       Schedule an appointment or a meeting
@@ -28,21 +29,8 @@ The plugin is designed to actively invite website visitors to engage with your b
 
 https://www.youtube.com/watch?v=4JE1xYUrO7w
 
-
-vCita Lead Capturing Calls-to-Action offers several pre-defined services, but also allows you to fully customize the experience using the <a href="http://developers.vcita.com/">vCita SDK</a>  - add more actions, design your own popup content, customize the UI and more.
-
-vCita Lead Capturing Calls-to-Action also helps you in turning more leads into clients with automated actions and advanced management options:
-
-* Livesite notify you of any new lead via Email or SMS to help you respond faster
-* A client card is created for any new lead – So you can add private notes, mark for follow up and more.
-* vCita keeps your complete communication history with every lead and client so you can always go back and see exactly where you stopped.
-* Returning clients to your site are greeted by livesite and can access a private client portal where they can view the communication history, notification of coming meetings, payments and more
-
-**vCita Calls to action is Free! The plugin connects to your vCita account. You may create a FREE account at vCita directly from the plugin.**
-
-
 = Translations = 
-vCita Lead Capturing Calls To Action is fully translated to: 
+vCita Active Contact Form & Calls To Action is fully translated to: 
 
 * English
 * Spanish
@@ -52,12 +40,49 @@ vCita Lead Capturing Calls To Action is fully translated to:
 * Hebrew
 * Russian - Coming soon!
 
+Don't find your language here? Active Contact Form can be manually customized to any language!
+
+vCita Active Contact Form & Calls-to-Action allows you to fully customize the experience using the <a href="http://developers.vcita.com/">vCita SDK</a>  - add more actions, design your own popup content, customize the UI and more.
+
+**vCita Active Contact Form & Calls to action is Free! The plugin connects to your vCita account. You may create a FREE account at vCita directly from the plugin.**
+
+vCita Active Contact Form & Calls-to-Action also helps you in turning more leads into clients with automated actions and advanced management options:
+
+* Immediate Email or SMS notification of any new lead generated on your Active Contact Form
+* A client record for any new lead generated on your Active Contact Form
+* Active Contact Form keeps your complete communication history and allows you to add privet notes, mark for follow-up and more.
+* Returning clients to your website are greeted by the Active Contact Form and can access a private client portal where they can view the communication history, notification of coming meetings, payments and more
+* Automated SMS reminders for appointments scheduler through your active contact form 
+
+
+More of vCita Active Contact Form & Calls-to-Action features:
+
+* Select which calls-to-action will be available on you Active Contact Form 
+* Brand and customize the colors and fonts of your active contact form
+* Set which action will be most promoted on your Active Contact Form
+* Customize the texts showing on your Active Contact Form
+* Add links and edit fonts and colors in your active contact form
+* Manage all Active Contact form submissions in one dashboard
+* Active Contact Form is mobile optimized!
+* Send customized thank you message to clients who contact you via the Active Contact Form
+* Add customized fields to the form available on the Active Contact Form
+* Add your image or business logo to the Active Contact Form.
+* Add your Active Contact Form to multiple sites.
+* Assign Active Contact Form submissions to different staff members
+* Automatically add leads and contacts generated on your Active Contact Form to your contact management software
+* Track and prioritize Active Contact Form submissions
+* Responsive Active Contact Form that look great on any device
+* Active contact form offers your clients a personalized, self-service portal
+* Export contact generated on your Active Contact Form to CSV
+* Select an Active Contact Form color theme, or define your own Active Contact Form theme
+* Create and customize your Active Contact Form using an easy drag and drop builder.
+
 Find out more about <a href="http://www.vcita.com?invite=WP-V-AE">vCita LiveSite</a>  
 
 == Installation ==
  
 
-= Recommended installation for Lead Capturing Calls To Action by vCita =
+= Recommended installation for Active Contact Form & Calls To Action by vCita =
 
 1.	Connect to WordPress admin Panel
 2.	Click the "Plugins" menu on the left and choose "Add New".
@@ -105,26 +130,29 @@ Please visit <a href="http://www.vcita.com/about/privacy_policy?invite=wp-v-schd
 
 == Screenshots ==
 
-1. **LiveSite call-to-action** - Doubles the number of new business opportunities your website generate, and automatically streams them into your CRM.
+1. **Active Contact Form & Calls To Action** - Doubles the number of new business opportunities your website generate, and automatically streams them into your CRM.
 1. **Full customization** -  to perfectly match your business need and website theme.
 1. **Client Records** - For every lead captured on your site a new "Client Card", including all information about the lead, is created. You can search for clients and leads, Mark the lead status and make follow-up actions: Schedule an appointment, send an invoice and more. right time for the right price. Appointments can be conducted at any location, by phone, via Skype or any online meeting.
 1. **Manage & follow up with clients** 
 1. **Receive notifications for every new lead**
 
 == Changelog == 
+ = Active Contact Form & Calls To Action by vCita Version 1.3.0 =
+ * Some UI improvements
 
- = Lead Generating Calls-To-Action by vCita Version 1.2.0 =
+
+ = Active Contact Form & Calls To Action by vCita Version 1.2.0 =
  * Improved payment options
  * Introduced the vCita SDK
  * Compatibility with WordPress 4.3
 
- = Lead Generating Calls-To-Action by vCita Version 1.1.0 =
+ = Active Contact Form & Calls To Action by vCita Version 1.1.0 =
  * Compatibility with WordPress 4.2
  * Fixed some bugs
 
- = Lead Generating Calls-To-Action by vCita Version 1.0.0 =
+ = Active Contact Form & Calls To Action by vCita Version 1.0.0 =
  * Initial Version
 
 == Upgrade Notice ==
- = Lead Generating Calls-To-Action by vCita Version 1.2.0 =
- * New! Meet the vCita SDK which enables complete customization + Compatibility with WordPress 4.3
+ = Active Contact Form & Calls To Action by vCita Version 1.3.0 =
+ Some UI improvements
