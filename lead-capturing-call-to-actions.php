@@ -3,7 +3,7 @@
 Plugin Name: Lead Capturing Call-To-Actions by vCita
 Plugin URI: http://www.vcita.com
 Description: vCita Lead Capturing Call-To-Actions plugin for WordPress helps you capture twice as many leads!
-Version: 1.3.0
+Version: 1.4.0
 Author: vCita.com
 Author URI: http://www.vcita.com
 */

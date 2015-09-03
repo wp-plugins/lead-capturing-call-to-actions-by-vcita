@@ -1,22 +1,22 @@
-﻿=== Active Contact Form & Calls To Action by vCita ===
+﻿=== Contact Form & Calls To Action by vCita ===
 Contributors: vCita
 Donate link: www.vcita.com?invite=WP-V-AE
-Tags: LiveSite, Capture leads, leads, get leads, pup-up, popup, lead generation, lead nurtoring, mailing list, contact form DB, leads to CRM, email capture, lead capture plugin,  opt-in, opt in, mailing list, Contacts, gain contacts, gain subscribers, wordpress to lead, popup contact form, promotions, active engage, vcita, call to actions, call for action, list building, cta, pop-up, popup, génération de prospect, appels à l’action,  générer  liste de prospects, contacts, plugin pour capture de prospects, capture de prospects,  module de capture de prospects, français, llamar a la acción, captar clientes potenciales, plugin para captar clientes potenciales, clientes potenciales para CRM, lista de correo, promociones, wordpress para clientes potenciales, español, contratação ativa, obter inscrições, obter clientes potenciais, contatos, plugin de obtenção de clientes potenciais, mala direta, promoções, português, engage, Calls-to-action, Call-to-action, newsletter, contact form, form
+Tags: contact form, contact form plugin, contact form manager, LiveSite, Capture leads, leads, get leads, pup-up, popup, lead generation, lead nurturing, mailing list, contact form DB, leads to CRM, email capture, lead capture plugin,  opt-in, opt in, mailing list, Contacts, gain contacts, gain subscribers, wordpress to lead, popup contact form, promotions, active engage, vcita, call to actions, call for action, list building, cta, pop-up, popup, génération de prospect, appels à l’action,  générer  liste de prospects, contacts, plugin pour capture de prospects, capture de prospects,  module de capture de prospects, français, llamar a la acción, captar clientes potenciales, plugin para captar clientes potenciales, clientes potenciales para CRM, lista de correo, promociones, wordpress para clientes potenciales, español, contratação ativa, obter inscrições, obter clientes potenciais, contatos, plugin de obtenção de clientes potenciais, mala direta, promoções, português, engage, Calls-to-action, Call-to-action, newsletter, contact form, form
 
 Requires at least: 2.8
 Tested up to: 4.3
-Stable tag: 1.3.0
+Stable tag: 1.4.0
 
 License: GPLv2 or later
 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Active Contact Form & Calls to action is the most effective way to engage with your website visitors and convert them into leads and customers
+Active Contact Form & Calls To Action is the most effective way to engage with your website visitors and convert them into leads and customers
 == Description ==
 
 vCita Active Contact Form Lead Capturing Calls-to-Action is the ultimate way to capture more leads and customers on your WordPress website.
 
-The Active Contact Form & Calls-to-Action plugin is designed to actively invite website visitors to engage with your business, and has proven to **double** the number of visitors who end up contacting your team through your WordPress website.
+The Active Contact Form & Calls-to-Action plugin is designed to actively invite website visitors to engage with your business both on desktop and Mobile, and **has proven to double** the number of visitors who end up contacting your team through your WordPress website.
 
  
 ### vCita Active Contact Form & Calls to action turns your site into a LiveSite – inviting your clients to take actions on every page on your site: ###
@@ -27,7 +27,7 @@ The Active Contact Form & Calls-to-Action plugin is designed to actively invite 
 *       Share documents
 *       Click to call
 
-https://www.youtube.com/watch?v=4JE1xYUrO7w
+https://www.youtube.com/watch?v=ARDspBJMTPE
 
 = Translations = 
 vCita Active Contact Form & Calls To Action is fully translated to: 
@@ -36,9 +36,9 @@ vCita Active Contact Form & Calls To Action is fully translated to:
 * Spanish
 * Portuguese
 * French
+* Russian
 * Polish
 * Hebrew
-* Russian - Coming soon!
 
 Don't find your language here? Active Contact Form can be manually customized to any language!
 
@@ -57,25 +57,50 @@ vCita Active Contact Form & Calls-to-Action also helps you in turning more leads
 
 More of vCita Active Contact Form & Calls-to-Action features:
 
-* Select which calls-to-action will be available on you Active Contact Form 
-* Brand and customize the colors and fonts of your active contact form
-* Set which action will be most promoted on your Active Contact Form
-* Customize the texts showing on your Active Contact Form
-* Add links and edit fonts and colors in your active contact form
-* Manage all Active Contact form submissions in one dashboard
+* Select which calls-to-action will be available on you Active Contact Form.
+* Brand and customize the colors and fonts of your active contact form.
+* Set which action will be most promoted on your Active Contact Form.
+* Customize the texts showing on your Active Contact Form.
+* Add links and edit fonts and colors in your active contact form.
+* Manage all Active Contact form submissions in one dashboard.
 * Active Contact Form is mobile optimized!
-* Send customized thank you message to clients who contact you via the Active Contact Form
-* Add customized fields to the form available on the Active Contact Form
+* Send customized thank you message to clients who contact you via the Active Contact Form.
+* Add customized fields to the Active Contact Form.
 * Add your image or business logo to the Active Contact Form.
 * Add your Active Contact Form to multiple sites.
-* Assign Active Contact Form submissions to different staff members
-* Automatically add leads and contacts generated on your Active Contact Form to your contact management software
-* Track and prioritize Active Contact Form submissions
-* Responsive Active Contact Form that look great on any device
-* Active contact form offers your clients a personalized, self-service portal
-* Export contact generated on your Active Contact Form to CSV
-* Select an Active Contact Form color theme, or define your own Active Contact Form theme
+* Assign Active Contact Form submissions to different staff members.
+* Automatically add leads and contacts generated on your Active Contact Form to your contact management software.
+* Track and prioritize Active Contact Form submissions.
+* Responsive Active Contact Form that look great on any device.
+* Active contact form offers your clients a personalized, self-service portal.
+* Export contact generated on your Active Contact Form to CSV.
+* Select an Active Contact Form color theme, or define your own Active Contact Form theme.
 * Create and customize your Active Contact Form using an easy drag and drop builder.
+* Add customized actions to your active contact form using the LiveSite SDK.
+* Set the order of the actions in your active contact form.
+* Accept appointments via your active contact form.
+* Allow clients to directly call your business using your active contact form.
+* Invite clients to make payments using your active contact form.
+* Active contact form may send a custom thank you message with any contact form submission
+* Add different types of fields into your active contact form: drop-down, single line, phone, and more
+* Select the layout of the active contact form: active contact form with floating action bar, or active contact form with integrated action bar.
+* Show your clients a list of offered services using your active contact form
+* Your clients will see a success message after submitting the contact form.
+* Add google analytics code to your active contact form.
+* You may add terms or service to appointments or services done through your active contact form.
+* Receive automated SMS notification with any new contact request on your active contact form.
+* Unlimited number of contact form submissions.
+* Add the active contact form on specific pages.
+* Advanced spam protection to make your contact form safer.
+* Set the active contact form labels position.
+* Receive contact form submission notification to multiple emails.
+* See where the contact form submission originated from (URL)
+* Set which fields on your active contact form are mandatory.
+* Use the active contact form to promote a specific service or offering.
+* Respond faster to new contact form submissions.
+* Your visitors can upload files through your active contact form
+* Set your own validation message that will be displayed when the active contact form is successfully submitted
+* Active contact form will increase mobile conversions on your website
 
 Find out more about <a href="http://www.vcita.com?invite=WP-V-AE">vCita LiveSite</a>  
 
@@ -137,9 +162,11 @@ Please visit <a href="http://www.vcita.com/about/privacy_policy?invite=wp-v-schd
 1. **Receive notifications for every new lead**
 
 == Changelog == 
+ = Active Contact Form & Calls To Action by vCita Version 1.4.0 =
+ * Fixed some minor bugs
+
  = Active Contact Form & Calls To Action by vCita Version 1.3.0 =
  * Some UI improvements
-
 
  = Active Contact Form & Calls To Action by vCita Version 1.2.0 =
  * Improved payment options
@@ -154,5 +181,3 @@ Please visit <a href="http://www.vcita.com/about/privacy_policy?invite=wp-v-schd
  * Initial Version
 
 == Upgrade Notice ==
- = Active Contact Form & Calls To Action by vCita Version 1.3.0 =
- Some UI improvements
