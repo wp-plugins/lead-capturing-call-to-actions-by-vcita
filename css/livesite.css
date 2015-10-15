@@ -1,0 +1,574 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Helpers */
+.text-center { text-align: center; }
+
+.toplevel_page_live-site .wp-submenu .wp-first-item { display: none; }
+
+.ls-absolute-center {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.ls-small-text { font-size: 1.5rem; }
+
+.push-down-1 { margin-bottom: 1rem !important; }
+.push-down-3 { margin-bottom: 3rem !important; }
+.push-down-5 { margin-bottom: 5rem !important; }
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.ls-wrap {
+    background-color: #fff;
+    letter-spacing: .5px;
+}
+
+.ls-meta-box-wrap { max-width: 101rem }
+
+/* Some iframes have transparent backgrounds */
+.ls-iframe { background-color: #fff; }
+
+.ls-pre-header {
+    padding: 1rem 0;
+    background-color: #F1F1F1;
+    text-align: right;
+    line-height: 1.2;
+}
+
+    .ls-pre-header__end { text-align: right; }
+
+    .ls-pre-header__rate-link {
+        text-decoration: none;
+        color: #168F6C;
+    }
+
+    .ls-pre-header__logo {
+        width: 59px;
+        height: 26px;
+        background-image: url('../images/vcita-logo.png');
+        display: inline-block;
+    }
+
+    .ls-pre-header__logo,
+    .ls-pre-header__email,
+    .ls-pre-header__greet {
+        vertical-align: middle;
+    }
+
+    .ls-pre-header__logo {
+        margin-left: 1rem;
+    }
+
+/* Header */
+.ls-header {
+    height: 28.4rem;
+    background-color: #4575d9;
+    border-top: 12px solid #303c56;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-bottom: 3.5rem;
+    position: relative;
+}
+
+    .ls-header__main-decoration,
+    .ls-header__decoration {
+        width: 21.7rem;
+        height: 21.4rem;
+        background-size: cover;
+        background-image: url('../images/header-decoration.png');
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 4rem;
+        right: 5rem;
+    }
+
+    .ls-header__main-decoration {
+        background-image: url('../images/header-main.png');
+        width: 37rem;
+        height: 48rem;
+        top: -2.8rem;
+        left: 0;
+        right: auto;
+        background-size: contain;
+    }
+
+    .ls-header__wrap {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-top: -1rem;
+    }
+
+    .ls-header__title {
+        font-size: 4rem;
+        color: white;
+        font-weight: 100;
+        line-height: 1.2;
+        margin-bottom: 5rem;
+    }
+
+    .ls-header__text-wrap {
+        width: 28rem;
+        text-align: left;
+        margin: 0 auto;
+    }
+
+        .ls-header__text-title {
+            font-size: 1.5rem;
+            font-weight: 100;
+            display: block;
+            opacity: .6;
+            margin-left: 5.4rem;
+            margin-bottom: -0.9rem;
+        }
+
+        .ls-header__text {
+            font-size: 2.2rem;
+            font-weight: 100;
+            line-height: 1.2;
+            vertical-align: middle;
+        }
+
+        .ls-header__text-icon {
+            font-size: 5rem;
+            vertical-align: middle;
+            display: inline-block;
+        }
+
+
+/* Buttons */
+.ls-button--central {
+    padding: 3rem 8rem;
+    background-color: #e17b39;
+    border-radius: .5rem;
+    box-shadow: 0 3px 0 0 #944e1d;
+    border: 1px solid #c5682d;
+    color: white;
+    font-size: 1.7rem;
+    display: inline-block;
+    margin-bottom: 5rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.ls-button--central:hover {
+    color: white;
+    box-shadow: 0 1px 0 0 #944e1d;
+    top: 2px;
+}
+
+/* Sections */
+.ls-section {
+    border-bottom: 1px solid #dcdcdc;
+    margin: 0 auto 4.3rem;
+    position: relative;
+    width: 90%;
+}
+
+.ls-section--last {
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+.ls-section__title {
+    display: block;
+    font-size: 2.5rem;
+    margin-bottom: 5rem;
+    font-weight: 300;
+}
+
+/* Modules */
+.ls-modules {
+    max-width: 83rem;
+    margin: 0 auto 5rem;
+}
+
+    .ls-modules__module {
+        display: inline-block;
+        width: 48%;
+        margin-left: 2%;
+        margin-bottom: 1rem;
+        background-color: #f7f7f7;
+        padding: 2rem 1.2rem;
+        border: 1px solid #dadada;
+        text-align: left;
+        position: relative;
+    }
+
+    .ls-modules__module--active:hover {
+        background-color: #e7edfb;
+        cursor: pointer;
+    }
+
+    .ls-modules__module--active:before {
+        content: "";
+        display: block;
+        position: absolute;
+        height: 100%;
+        width: .6rem;
+        background-color: #4875da;
+        left: 0;
+        top: 0;
+    }
+
+        .ls-modules__module-content { margin-left: 10rem; }
+
+    /* Disabled mode for modules */
+    .ls-modules__module--disabled .ls-modules__module-title,
+    .ls-modules__module--disabled .ls-modules__module-icon,
+    .ls-modules__module--disabled .ls-modules__module-text { color: #d8d8da; }
+
+    /* Override hover when module is disabled */
+    .ls-modules__module--disabled.ls-modules__module--active:hover {
+        background-color: #f7f7f7;
+        cursor: default;
+    }
+
+    /* Make sideline transparent when modules arent active */
+    .ls-modules__module--disabled.ls-modules__module--active:before { background-color: transparent; }
+
+    .ls-modules__module--disabled .ls-modules__module-button {
+        background-color: #d8d8da;
+        cursor: default;
+        color: #ececec;
+    }
+
+    /* Dont break even modules with margin left */
+    .ls-modules__module:nth-child(2n+1) { margin-left: 0; }
+
+        .ls-modules__module-icon {
+            display: block;
+            float: left;
+            margin-right: 2rem;
+            margin-left: 2rem;
+            font-size: 5rem;
+            height: 100%;
+        }
+
+        .ls-modules__module-title {
+            font-size: 1.6rem;
+            font-weight: normal;
+            color: #4676d8;
+            display: block;
+            margin-bottom: .4rem;
+        }
+
+        .ls-modules__module-text {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+
+        .ls-modules__module-button--active {
+            background-color: #4676d8;
+            color: white;
+        }
+
+        /* Only show pointer on uninitated module */
+        .ls-modules__module-button--active { cursor: default; }
+
+
+.ls-module-page-title {
+    padding: 2.5rem 0;
+}
+
+.ls-module-page-title__heading,
+.ls-module-page-title__sub-heading {
+    display: block;
+}
+
+.ls-module-page-title__heading {
+    font-size: 2.05rem;
+    margin-bottom: 1.1rem;
+    font-weight: 400;
+}
+
+.ls-module-page-title__sub-heading {
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+
+.ls-module-page-title__sub-heading { margin: 0; }
+
+.ls-module-page-title__title-wrapper {
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.ls-module-page-title__title-wrapper,
+.ls-module-page-title__icon {
+    vertical-align: middle;
+}
+
+.ls-module-page-title__icon {
+    display: inline-block;
+    height: 7rem;
+    width: 7rem;
+    background-color: #4774d9;
+    color: white;
+    border-radius: 50%;
+    font-size: 4.5rem;
+    text-align: center;
+    padding-top: 1.2rem;
+}
+
+/* Floating wrapper for modules */
+.ls-module-wrapper {
+    position: fixed;
+    top: 6rem;
+    right: -22.6rem;
+    padding: 0;
+    background-color: #fff;
+    border-radius: 2rem 0 0 2rem;
+    width: 31.5rem;
+    box-shadow: -1px 1px 3px 0 rgba(0,0,0,.4);
+}
+
+    .ls-modules-slim { margin: 0; }
+
+.ls-modules-slim__rack {
+    position: relative;
+    margin-bottom: 0;
+    border-bottom: 1px solid #eee;
+    height: 9rem;
+    cursor: pointer;
+}
+
+.ls-modules-slim__rack:first-child { border-radius: 2rem 0 0 0; }
+.ls-modules-slim__rack:last-child { border-radius: 0 0 0 2rem; }
+
+.ls-modules-slim__rack--active:before,
+.ls-modules-slim__rack--extras:before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: .4rem;
+    background-color: #4875da;
+    right: 22.6rem;
+    top: 0;
+}
+
+.ls-modules-slim__rack--extras:before { background-color: #e2a457; }
+
+/* Hover states for sidebar nav items */
+.ls-modules-slim__rack--active:hover,
+.ls-modules-slim__rack--extras:hover { background-color: #e7edfb; }
+
+.ls-modules-slim__rack:last-child {
+    border-bottom: 0;
+}
+
+.ls-modules-slim__rack:hover .ls-modules-slim__module {
+    left: -21rem;
+    opacity: 1;
+}
+
+    /* Slim module list on the sidebar */
+    .ls-modules-slim__module {
+        position: absolute;
+        top: 0;
+        left: 8rem;
+        padding: 1.4rem 1rem;
+        margin-bottom: 0;
+        font-size: 1.5rem;
+        width: 100%;
+        height: 9rem;
+        background-color: #e7edfb;
+        border-radius: .5rem 0 0 .5rem;
+        opacity: 0;
+        -webkit-transition: left .5s, opacity .5s;
+        transition: left .5s, opacity .5s;
+        cursor: pointer;
+    }
+
+    .ls-modules-slim__module--active {
+        background-color: #4676d8;
+        color: white;
+    }
+
+    .ls-modules-slim__module-button {
+        display: block;
+        text-align: center;
+        width: 8.5rem;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        z-index: 1;
+        transform: translateY(-50%);
+        text-decoration: none;
+        color: currentColor;
+    }
+
+    /* Override wordpress link hover */
+    .ls-modules-slim__module-button:hover { color: currentColor; }
+
+        .ls-modules-slim__module-icon {
+            font-size: 3rem;
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
+
+        .ls-modules-slim__module-title {
+            display: block;
+            font-size: 1rem;
+        }
+
+    .ls-module-slim__activate__text {
+        font-size: 1.2rem;
+        width: 21rem;
+        height: 3.5rem;
+        margin-bottom: .4rem;
+    }
+
+/* Promotions */
+.ls-promotions {
+    max-width: 86rem;
+    margin: 0 auto 5rem;
+}
+
+    .ls-promotions--disabled .ls-promotions__url,
+    .ls-promotions--disabled .ls-promotions__icon,
+    .ls-promotions--disabled .ls-promotions__promotion { color: #d8d8da; }
+
+    .ls-promotions__promotion {
+        vertical-align: top;
+        display: inline-block;
+        width: 33%;
+        padding: 2rem 1.2rem;
+    }
+
+    .ls-promotions__promotion--color-1 { color: #f09f43; }
+    .ls-promotions__promotion--color-2 { color: #16a184; }
+    .ls-promotions__promotion--color-3 { color: #7B5D75; }
+
+    .ls-promotions__icon {
+        margin-bottom: 2rem;
+        font-size: 5rem;
+    }
+
+    .ls-promotions__icon .dashicons {
+        font-size: 4rem;
+        width: auto;
+        height: auto;
+    }
+
+    .ls-promotions__title {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .ls-promotions__text {
+        margin: 0 auto 1rem;
+        max-width: 25rem;
+        line-height: 1.3;
+        color: #605956;
+    }
+
+    .ls-promotions__url {
+        text-decoration: underline;
+    }
+
+/* Email input field on first page - used for connecting vcita to plugin */
+.connect-email-input {
+    padding: 3.1rem;
+    border: 1px solid #d7d7d7;
+    background-color: white;
+    border-radius: .5rem;
+    display: inline-block;
+    position: relative;
+    width: 43rem;
+    margin-right: 3rem;
+}
+
+/* Payment module - Payment button shortcode creator */
+.ls-payment-button-wrapper,
+.ls-payment-button-options {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.ls-payment-button-wrapper {
+    position: relative;
+    padding-top: 300px;
+    text-align: center;
+}
+
+.ls-payment-button {
+    display: inline-block;
+    border: 1px solid #ddb54c;
+    padding: 10px 45px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-image: linear-gradient(180deg, #fedc83 0, #f0c85f 100%);
+    font-family: sans-serif;
+    color: #46360c;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.ls-payment-button-icons {
+    background-image: url(../images/ls-payment-icons.png);
+    background-repeat: no-repeat;
+    width: 153px;
+    height: 19px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Livesite widget toggle switch */
+.ls-toggle-switch {
+    text-align: center;
+    width: 110px;
+    height: 35px;
+}
+
+/* Footer links menu */
+.ls-footer {
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+    background-color: #D8D8DA;
+}
+
+.ls-footer-menu {
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+.ls-footer-menu__item {
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.ls-footer-menu__item:first-child {
+    margin-left: 0;
+}
+
+.ls-footer-menu__link {
+    color: #615957;
+    text-decoration: none;
+}
