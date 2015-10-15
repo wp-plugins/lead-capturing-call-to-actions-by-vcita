@@ -4,8 +4,8 @@ Donate link: www.vcita.com?invite=WP-V-AE
 Tags: contact form, contact form plugin, contact form manager, LiveSite, Capture leads, leads, get leads, pup-up, popup, lead generation, lead nurturing, mailing list, contact form DB, leads to CRM, email capture, lead capture plugin,  opt-in, opt in, mailing list, Contacts, gain contacts, gain subscribers, wordpress to lead, popup contact form, promotions, active engage, vcita, call to actions, call for action, list building, cta, pop-up, popup, génération de prospect, appels à l’action,  générer  liste de prospects, contacts, plugin pour capture de prospects, capture de prospects,  module de capture de prospects, français, llamar a la acción, captar clientes potenciales, plugin para captar clientes potenciales, clientes potenciales para CRM, lista de correo, promociones, wordpress para clientes potenciales, español, contratação ativa, obter inscrições, obter clientes potenciais, contatos, plugin de obtenção de clientes potenciais, mala direta, promoções, português, engage, Calls-to-action, Call-to-action, newsletter, contact form, form
 
 Requires at least: 2.8
-Tested up to: 4.3
-Stable tag: 1.4.0
+Tested up to: 4.3.1
+Stable tag: 2.0.0
 
 License: GPLv2 or later
 
@@ -161,7 +161,37 @@ Please visit <a href="http://www.vcita.com/about/privacy_policy?invite=wp-v-schd
 1. **Manage & follow up with clients** 
 1. **Receive notifications for every new lead**
 
+== More About Contact Form & Calls To Action by vCita ==
+vCita LiveSite Pack offers a verity of contact forms. You can use a basic contact form, add different fields to your contact form so it matches your business needs, create an active contact form to  greet your website visitors on every page and more.
+
+ = What does the basic contact form include? = 
+ * The basic contact form allows you to create customized contact form and add it to your WordPress website with ease.
+ * You can add and edit unlimited number of fields to your contact form
+ * The contact form can include a logo image, a short description of your business and a scheduling button.
+ * The Contact form can be added to multiple websites and pages.
+ * Contact form design and layout is easy to customize.
+
+ = What does the active contact form include? =
+ * The active contact form (LiveSite Widget) is a lead engagement contact form widget that can be added at the bottom of your website. 
+ * It include several contact form options such as leave detalis contact form, scheduling contact form, payment form and upload file contact form.
+ * The active contact form is automatically added to all pages on the website, and can be added to multiple sites.
+ * Active contact form is a proven way to increase the number of leads and customers generated on your site.
+ * The active contact form can be fully customized to represent your business needs. This includes all texts, colors, layout and call to actions.
+
+ = How can I manage contacts with vCita? = 
+ * vCita Active contact form helps you generate more leads and contacts from your website.
+ * All contact form submissions are delivered to your vCita Backoffice, were you can view, search and edit contacts, mark for follow-ups and more.
+
+ = vCita contact form is available in any language = 
+ * All form fields, buttons and other texts are fully editable and can be changed to any language.
+ * vCita is already fully translated to: English, Spanish, Portuguese, French, Russian, Polish and Hebrew.
+
+
 == Changelog == 
+ = Active Contact Form & Calls To Action by vCita Version 2.0.0 =
+ * Completely new design with more lead capturing options!
+ * Compatibility with WordPress 4.3.1
+
  = Active Contact Form & Calls To Action by vCita Version 1.4.0 =
  * Fixed some minor bugs
 
@@ -181,3 +211,4 @@ Please visit <a href="http://www.vcita.com/about/privacy_policy?invite=wp-v-schd
  * Initial Version
 
 == Upgrade Notice ==
+Version 2.0.0 : Completely new design with more lead capturing options!
