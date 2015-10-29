@@ -1,0 +1,72 @@
+{
+  "main_module": "form_builder",
+  "plugin_upgraded": false,
+  "modules": {
+    "form_builder": {
+      "active": true,
+      "path": "modules/form_builder.php",
+      "icon": "icon-File-Edit",
+      "title": "Contact Form",
+      "main_title": "Contact Form",
+      "text": "Create beautiful forms using a simple Drag &amp; Drop editor.",
+      "slug": "ls_cf",
+      "custom_page_id": false,
+      "custom_page_title": "Contact Us",
+      "custom_page_content": "<strong>Fill in the form below and we will get in touch as soon as we can.</strong> [livesite-contact title=\"Contact request\"]",
+      "custom_page_previously_created": false,
+      "module_tray_text": {
+        "active": "Customize your contact form",
+        "disabled": "Add a contact form to your site"
+      }
+    },
+    "livesite_widget": {
+      "active": true,
+      "path": "modules/livesite_widget.php",
+      "icon": "icon-Livesite",
+      "title": "LiveSite Widget",
+      "main_title": "Livesite Widget",
+      "text": "Encourage clients to take actions and capture twice as many leads",
+      "slug": "ls_lw",
+      "custom_page_id": false,
+      "show_livesite": true,
+      "module_tray_text": {
+        "active": "Customize your lead capturing widget",
+        "disabled": ""
+      }
+    },
+    "payments": {
+      "active": false,
+      "path": "modules/payments.php",
+      "icon": "icon-Money",
+      "title": "Payments Button",
+      "main_title": "Online Payments",
+      "text": "Offer your clients a simple way to pay for your services",
+      "slug": "ls_pm",
+      "custom_page_id": false,
+      "custom_page_title": "Pay Online",
+      "custom_page_content": "<strong>You are invited to securely pay online using any Credit Card or PayPal. Simply fill in the form below.</strong> [livesite-pay title=\"Contact request\"]",
+      "custom_page_previously_created": false,
+      "module_tray_text": {
+        "active": "Customize your payment form",
+        "disabled": "Add online payment options to your site"
+      }
+    },
+    "scheduler": {
+      "active": false,
+      "path": "modules/scheduler.php",
+      "icon": "icon-Calendar",
+      "title": "Scheduler",
+      "main_title": "Appointment Scheduler",
+      "text": "Self service appointment scheduling for your clients",
+      "slug": "ls_sc",
+      "custom_page_id": false,
+      "custom_page_title": "Book Appointment",
+      "custom_page_content": "<strong>We invite you to schedule an appointment online. See our available time below and pick a time that works best for you.</strong> [livesite-schedule title=\"Contact request\"]",
+      "custom_page_previously_created": false,
+      "module_tray_text": {
+        "active": "Customize your scheduling options",
+        "disabled": "Add online scheduling to your site"
+      }
+    }
+  }
+}
