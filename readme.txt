@@ -5,7 +5,7 @@ Tags: contact form, contact form plugin, contact form manager, LiveSite, Capture
 
 Requires at least: 2.8
 Tested up to: 4.3.1
-Stable tag: 2.0.0
+Stable tag: 2.1.0
 
 License: GPLv2 or later
 
@@ -17,6 +17,9 @@ Active Contact Form & Calls To Action is the most effective way to engage with y
 vCita Active Contact Form Lead Capturing Calls-to-Action is the ultimate way to capture more leads and customers on your WordPress website.
 
 The Active Contact Form & Calls-to-Action plugin is designed to actively invite website visitors to engage with your business both on desktop and Mobile, and **has proven to double** the number of visitors who end up contacting your team through your WordPress website.
+
+*NEW! Quickly view, manage and reply to customers on-the-go with the **Mobile App for <a href="https://itunes.apple.com/il/app/vcita-mobile-crm/id1025423769?mt=8">iPhone</a> or <a href="https://play.google.com/store/apps/details?id=com.vcita.mobileapp">Android</a>**
+ 
 
  
 ### vCita Active Contact Form & Calls to action turns your site into a LiveSite – inviting your clients to take actions on every page on your site: ###
@@ -173,7 +176,7 @@ vCita LiveSite Pack offers a verity of contact forms. You can use a basic contac
 
  = What does the active contact form include? =
  * The active contact form (LiveSite Widget) is a lead engagement contact form widget that can be added at the bottom of your website. 
- * It include several contact form options such as leave detalis contact form, scheduling contact form, payment form and upload file contact form.
+ * It include several contact form options such as leave details contact form, scheduling contact form, payment form and upload file contact form.
  * The active contact form is automatically added to all pages on the website, and can be added to multiple sites.
  * Active contact form is a proven way to increase the number of leads and customers generated on your site.
  * The active contact form can be fully customized to represent your business needs. This includes all texts, colors, layout and call to actions.
@@ -186,8 +189,15 @@ vCita LiveSite Pack offers a verity of contact forms. You can use a basic contac
  * All form fields, buttons and other texts are fully editable and can be changed to any language.
  * vCita is already fully translated to: English, Spanish, Portuguese, French, Russian, Polish and Hebrew.
 
+= The vCita Mobile App - never miss a lead =
+The new vcita mobile app will help you respond faster, and maximize ever contact form request. All contact form submissions will automatically show on your mobile app, were you can reply, invite for a follow-up meeting or call, request a payment and more. 
+
 
 == Changelog == 
+ = Active Contact Form & Calls To Action by vCita Version 2.1.0 =
+ * Mobile App
+ * UI improvements
+
  = Active Contact Form & Calls To Action by vCita Version 2.0.0 =
  * Completely new design with more lead capturing options!
  * Compatibility with WordPress 4.3.1
@@ -211,4 +221,4 @@ vCita LiveSite Pack offers a verity of contact forms. You can use a basic contac
  * Initial Version
 
 == Upgrade Notice ==
-Version 2.0.0 : Completely new design with more lead capturing options!
+New! Mobile app and some UI improvements
