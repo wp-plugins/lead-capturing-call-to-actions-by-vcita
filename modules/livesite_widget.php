@@ -64,8 +64,8 @@ class livesite_widget {
 	/**
 	 * Create Settings Page
 	 * @since 0.1.0
-	 * @link http://codex.wordpress.org/Function_Reference/register_setting
-	 * @link http://codex.wordpress.org/Function_Reference/add_menu_page
+	 * @link //codex.wordpress.org/Function_Reference/register_setting
+	 * @link //codex.wordpress.org/Function_Reference/add_menu_page
 	 * @uses get_setings_page_id()
 	 */
 	function settings_page_setup(){
@@ -244,7 +244,7 @@ class livesite_widget {
 	/**
 	 * Payment Settings meta box
 	 * @since 0.1.0
-	 * @link http://codex.wordpress.org/Function_Reference/add_meta_box
+	 * @link //codex.wordpress.org/Function_Reference/add_meta_box
 	 */
 	function top_settings_metabox(){
 
@@ -305,7 +305,7 @@ class livesite_widget {
 	/**
 	 * Payment Form and Button meta box
 	 * @since 0.1.0
-	 * @link http://codex.wordpress.org/Function_Reference/add_meta_box
+	 * @link //codex.wordpress.org/Function_Reference/add_meta_box
 	 */
 	function main_metabox(){
 
@@ -333,7 +333,7 @@ class livesite_widget {
 	?>
 
 	<iframe class="js-iframe"
-			src="http://www.vcita.com/widget_implementations?platform=wordpress&widget=active_engage&key=<?php echo $implementation_key; ?>"
+			src="//www.vcita.com/widget_implementations?platform=wordpress&widget=active_engage&key=<?php echo $implementation_key; ?>"
 			width="980"
 			height="100%"></iframe>
 
@@ -343,7 +343,7 @@ class livesite_widget {
 			<td>
 				<?php _e('**Use LiveSite SDK to add any LiveSite action to any element on your site','livesite'); ?>
 				-
-				<a href="http://developers.vcita.com/"><?php _e('Access SDK documentation','livesite'); ?></a>
+				<a href="//developers.vcita.com/"><?php _e('Access SDK documentation','livesite'); ?></a>
 			</td>
 		</tr>
 	</table>
@@ -354,7 +354,7 @@ class livesite_widget {
 	/**
 	 * Payment Settings meta box
 	 * @since 0.1.0
-	 * @link http://codex.wordpress.org/Function_Reference/add_meta_box
+	 * @link //codex.wordpress.org/Function_Reference/add_meta_box
 	 */
 	function ls_advanced_options(){
 

@@ -240,7 +240,7 @@ class ls_helpers {
 
 	/**
 	 * Utility: Helper
-	 * Get custom page url
+	 * Get plugin page url
 	 *
 	 * @param: $module_name{String},
 	 * @return: String
@@ -314,20 +314,23 @@ class ls_helpers {
 			// If custom page id does not exist and was not previously created
 			if ( ! $custom_page_id && ! $custom_page_previously_created ){
 
+				// Get random content method knows how to handle single string and array
+  			$custom_page_content = $this->get_random_page_content( $module_data['custom_page_content'] );
+
 				// Add the modules custom page
-		        $page_id = $this->add_wp_page( $module_data['custom_page_title'], $module_data['custom_page_content'] );
+        $page_id = $this->add_wp_page( $module_data['custom_page_title'], $custom_page_content );
 
 				// Only if page was added define the new page id in the plugins settings
-		        if ( $page_id ){
+        if ( $page_id ){
 
 					ls_set_settings( array(
-		               'modules' => array(
-							$module_name => array(
-		                       'custom_page_id' => $page_id,
-							   'custom_page_previously_created' => true
-		                   )
-		               )
-		            ));
+          	'modules' => array(
+						  $module_name => array(
+                'custom_page_id' => $page_id,
+					   		'custom_page_previously_created' => true
+              )
+            )
+          ));
 
 				}
 
@@ -456,6 +459,31 @@ class ls_helpers {
 	 */
 	function get_old_plugin_db_key() {
 	    return 'vcita_scheduler';
+	}
+
+	/**
+	 * Settings
+	 * Return a random item from an array
+ 	 * @param: page_content_list{String|Array}
+	 * @since 3.0.2
+	 */
+	function get_random_page_content( $page_content_list ) {
+
+		// Initially the list is just one string
+		$random_sentence = $page_content_list;
+
+		// If the list is an array
+		if ( is_array( $page_content_list ) ){
+
+			// Get a random number up to the length of the custom sentences
+			$random_sentence_number = mt_rand( 0, count($page_content_list) - 1 );
+
+			$random_sentence = $page_content_list[ $random_sentence_number ];
+
+		}
+
+		return $random_sentence;
+
 	}
 
 }

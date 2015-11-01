@@ -10,7 +10,7 @@ jQuery(function($){
 			page_id: ls_PHPVAR_custom_page.ls_pm_page_id,
 			page_title: ls_PHPVAR_custom_page.ls_pm_page_title,
 			page_content: ls_PHPVAR_custom_page.ls_pm_page_content,
-            module_name: ls_PHPVAR_custom_page.ls_pm_module_name
+      module_name: ls_PHPVAR_custom_page.ls_pm_module_name
 		};
 
 		var init_module_xhr = $.post( ls_PHPVAR_livesite.ls_site_url + '/wp-admin/admin-ajax.php', params);

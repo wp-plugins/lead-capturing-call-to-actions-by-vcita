@@ -79,7 +79,12 @@ function ls_init_default_settings(){
                     'slug' => 'ls_cf',
                     'custom_page_id' => false,
                     'custom_page_title' => 'Contact Us',
-                    'custom_page_content' => '<strong>Fill in the form below and we will get in touch as soon as we can.</strong> [livesite-contact title="Contact request"]',
+                    'custom_page_content' => array(
+                      '<strong>Fill in the form below and we will get in touch as soon as we can.</strong> [livesite-contact title="Contact request"]',
+                      '<strong>We are always interested to hear from anyone who wishes to get in touch with us. Please fill up the contact form below and we\'ll get back to you soon. A confirmation email will be sent to you once the message was sent.</strong> [livesite-contact title="Contact request"]',
+                      '<strong>Feel free to contact our team with your inquiries, by using the contact management software form below:</strong> [livesite-contact title="Contact request"]',
+                      '<strong>Please complete the contact form below to schedule time with our team.</strong> [livesite-contact title="Contact request"]'
+                    ),
                     'custom_page_previously_created' => false,
                     'module_tray_text' => array(
                         'active' => 'Customize your contact form',
@@ -111,7 +116,12 @@ function ls_init_default_settings(){
                     'slug' => 'ls_pm',
                     'custom_page_id' => false,
                     'custom_page_title' => 'Pay Online',
-                    'custom_page_content' => '<strong>You are invited to securely pay online using any Credit Card or PayPal. Simply fill in the form below.</strong> [livesite-pay]',
+                    'custom_page_content' => array(
+                        '<strong>You are invited to securely pay online using any Credit Card or PayPal. Simply fill in the form below.</strong> [livesite-pay]',
+                        '<p>We accept online payments!</p><p>You may pay securely using any Credit Card or PayPal account.<br>Please use the form below to complete your payment. A confirmation email will be sent to you once the charge has been made.</p> [livesite-pay]',
+                        '<strong>Make a payment using our secure and convenient online payment system.</strong> [livesite-pay]',
+                        '<strong>We invite you to make a secure online payment.<br>To get started, please fill up the form below:</strong> [livesite-pay]',
+                    ),
                     'custom_page_previously_created' => false,
                     'module_tray_text' => array(
                         'active' => 'Customize your payment form',
@@ -128,7 +138,12 @@ function ls_init_default_settings(){
                     'slug' => 'ls_sc',
                     'custom_page_id' => false,
                     'custom_page_title' => 'Book Appointment',
-                    'custom_page_content' => '<strong>We invite you to schedule an appointment online. See our available time below and pick a time that works best for you.</strong> [livesite-schedule title="Contact request"]',
+                    'custom_page_content' => array(
+                      '<strong>We invite you to schedule an appointment online. See our available time below and pick a time that works best for you.</strong> [livesite-schedule title="Contact request"]',
+                      '<strong>Use this calendar to schedule an appointment with us.</strong> [livesite-schedule title="Contact request"]',
+                      '<strong>Please use the below CRM Software to reach out to us.</strong> [livesite-schedule title="Contact request"]',
+                      '<strong>Use our Online Scheduling system to book an appointment, request a service or schedule a meeting.</strong> [livesite-schedule title="Contact request"]',
+                    ),
                     'custom_page_previously_created' => false,
                     'module_tray_text' => array(
                         'active' => 'Customize your scheduling options',

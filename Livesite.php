@@ -12,7 +12,7 @@ Author URI: http://www.vcita.com
 *  livesite_main_lw
 *
 *  @description: controller for main init of LiveSite Plugin
-*  @since: 2.0.0
+*  @since: 3.0.1
 *  @created: 01/10/15
 */
 
@@ -47,9 +47,11 @@ class livesite_main_lw {
         }
 
         if ( $run_plugin ){
-            require_once( __DIR__ . '/plugin_init.php' );
+          $path = plugin_dir_path( __FILE__ );
 
-            new ls_plugin_init();
+          require_once( $path . 'plugin_init.php' );
+
+          new ls_plugin_init();
         }
 
 

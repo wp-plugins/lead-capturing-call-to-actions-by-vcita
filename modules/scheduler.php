@@ -73,8 +73,8 @@ class livesite_scheduler {
 	/**
 	 * Create Settings Page
 	 * @since 0.1.0
-	 * @link http://codex.wordpress.org/Function_Reference/register_setting
-	 * @link http://codex.wordpress.org/Function_Reference/add_menu_page
+	 * @link //codex.wordpress.org/Function_Reference/register_setting
+	 * @link //codex.wordpress.org/Function_Reference/add_menu_page
 	 * @uses get_setings_page_id()
 	 */
 	function settings_page_setup(){
@@ -205,7 +205,7 @@ class livesite_scheduler {
 						'ls_pm_module_nonce' => wp_create_nonce( 'module-page' ),
 						'ls_pm_module_name' => $module_name,
 						'ls_pm_page_title' => $module_data['custom_page_title'],
-						'ls_pm_page_content' => $module_data['custom_page_content'],
+						'ls_pm_page_content' => $ls_helpers->get_random_page_content( $module_data['custom_page_content'] ),
 						'ls_pm_page_id' => $module_data['custom_page_id']
 					)
 				)
@@ -307,9 +307,9 @@ class livesite_scheduler {
 	}
 
 	/**
-	 * Payment Settings meta box
+	 * Scheduler Settings meta box
 	 * @since 0.1.0
-	 * @link http://codex.wordpress.org/Function_Reference/add_meta_box
+	 * @link //codex.wordpress.org/Function_Reference/add_meta_box
 	 */
 	function top_settings_metabox(){
 
@@ -326,7 +326,7 @@ class livesite_scheduler {
 	}
 
 	/**
-	 * Payment Settings meta box markup
+	 * Scheduler Settings meta box markup
 	 * @since 0.1.0
 	 */
 	function top_settings_metabox_markup(){
@@ -342,7 +342,7 @@ class livesite_scheduler {
 
 		<table class="form-table">
 			<tr>
-				<td> <?php _e('Online Payment Page','livesite'); ?></td>
+				<td> <?php _e('Appointement Scheduling Page','livesite'); ?></td>
 				<td>
 					<?php if ( $custom_payment_page ): ?>
 					<a href="<?php echo $custom_payment_page; ?>" class="button button-primary"> <?php _e('Edit Page','livesite'); ?></a>
@@ -380,7 +380,7 @@ class livesite_scheduler {
 	/**
 	 * Payment Form and Button meta box
 	 * @since 0.1.0
-	 * @link http://codex.wordpress.org/Function_Reference/add_meta_box
+	 * @link //codex.wordpress.org/Function_Reference/add_meta_box
 	 */
 	function main_metabox(){
 
@@ -412,7 +412,7 @@ class livesite_scheduler {
 
 	<table class="form-table">
 		<tr>
-			<td> <?php _e('Contact Form ShorCode','livesite'); ?></td>
+			<td> <?php _e('Contact Form ShortCode','livesite'); ?></td>
 			<td>
 				<code>[livesite-schedule title="Contact request" class="&lt;your-custom-class&gt;"]</code>
 			</td>
@@ -420,7 +420,7 @@ class livesite_scheduler {
 	</table>
 
 	<iframe class="js-iframe"
-			src="http://www.vcita.com/widget_implementations?platform=wordpress&widget=scheduler&key=<?php echo $implementation_key; ?>"
+			src="//www.vcita.com/widget_implementations?platform=wordpress&widget=scheduler&key=<?php echo $implementation_key; ?>"
 			width="980"
 			height="100%"></iframe>
 
@@ -430,7 +430,7 @@ class livesite_scheduler {
 			<td>
 				<?php _e('**Use LiveSite SDK to add any LiveSite action to any element on your site','livesite'); ?>
 				-
-				<a href="http://developers.vcita.com/"><?php _e('Access SDK documentation','livesite'); ?></a>
+				<a href="//developers.vcita.com/"><?php _e('Access SDK documentation','livesite'); ?></a>
 			</td>
 		</tr>
 	</table>
@@ -441,7 +441,7 @@ class livesite_scheduler {
 	/**
 	 * Payment Settings meta box
 	 * @since 0.1.0
-	 * @link http://codex.wordpress.org/Function_Reference/add_meta_box
+	 * @link //codex.wordpress.org/Function_Reference/add_meta_box
 	 */
 	function ls_advanced_options(){
 

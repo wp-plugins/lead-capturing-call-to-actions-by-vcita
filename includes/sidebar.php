@@ -46,7 +46,7 @@ function ls_render_sidebar_html(){
             </a>
         </li>
         <li class="ls-modules-slim__rack ls-modules-slim__rack--extras">
-            <a href="http://developers.vcita.com" target="_blank" class="ls-modules-slim__module-button">
+            <a href="//developers.vcita.com" target="_blank" class="ls-modules-slim__module-button">
                 <span class="ls-modules-slim__module-icon icon-Code-Window"></span>
                 <span class="ls-modules-slim__module-title"><?php _e('SDK','livesite'); ?></span>
             </a>

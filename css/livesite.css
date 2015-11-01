@@ -449,16 +449,16 @@ html {
     margin: 0 auto 5rem;
 }
 
-    .ls-promotions--disabled .ls-promotions__url,
-    .ls-promotions--disabled .ls-promotions__icon,
-    .ls-promotions--disabled .ls-promotions__promotion { color: #d8d8da; }
-
     .ls-promotions__promotion {
         vertical-align: top;
         display: inline-block;
         width: 33%;
         padding: 2rem 1.2rem;
     }
+
+    .ls-promotions__promotion--disabled .ls-promotions__url,
+    .ls-promotions__promotion--disabled .ls-promotions__icon,
+    .ls-promotions__promotion--disabled { color: #d8d8da; }
 
     .ls-promotions__promotion--color-1 { color: #f09f43; }
     .ls-promotions__promotion--color-2 { color: #16a184; }
