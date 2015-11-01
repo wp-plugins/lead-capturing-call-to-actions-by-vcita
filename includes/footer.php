@@ -16,7 +16,7 @@ function ls_render_footer(){
     <ul class="ls-footer-menu">
         <?php if ( $is_vcita_connected ): ?>
         <li class="ls-footer-menu__item">
-            <a href="http://www.vcita.com/account?<?php echo $ls_helpers->get_plugin_identifier(); ?>" target="_blank" class="ls-footer-menu__link">Account</a>
+            <a href="//www.vcita.com/account?<?php echo $ls_helpers->get_plugin_identifier(); ?>" target="_blank" class="ls-footer-menu__link">Account</a>
         </li>
         <?php endif; ?>
         <li class="ls-footer-menu__item">

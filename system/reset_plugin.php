@@ -75,14 +75,14 @@ class reset_plugin
      */
     function reset_plugin(){
 
-		$ls_helpers = $this->ls_helpers;
+			$ls_helpers = $this->ls_helpers;
 
-		$this->remove_custom_pages();
+			$this->remove_custom_pages();
 
-        // Remove plugin settings from db
-        delete_option( 'livesite_plugin_settings' );
+      // Remove plugin settings from db
+      delete_option( 'livesite_plugin_settings' );
 
-        $redirect_url = $ls_helpers->get_plugin_path();
+      $redirect_url = $ls_helpers->get_plugin_path();
 
     ?>
     <script type="text/javascript">

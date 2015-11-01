@@ -40,7 +40,7 @@ class livesite_embed_code {
 	        }
 	    }
 
-		$return = array( 'success' => $success, 'raw_data' => $raw_data );
+			$return = array( 'success' => $success, 'raw_data' => $raw_data );
 
 	    return $return;
 	}
@@ -66,7 +66,7 @@ class livesite_embed_code {
 			if ( ! $code ) {
 
 				$response = $this->get_contents(
-					"http://www.vcita.com/api/experts/" . urlencode($uid) . "/embed_code?type=" . $type . "&width=" . urlencode($width) . "&height=" . urlencode($height)
+					"https://www.vcita.com/api/experts/" . urlencode($uid) . "/embed_code?type=" . $type . "&width=" . urlencode($width) . "&height=" . urlencode($height)
 				);
 
 				$data = json_decode($response['raw_data']);
@@ -80,7 +80,7 @@ class livesite_embed_code {
 
 				} else {
 
-					$code = "<iframe frameborder='0' src='http://www.vcita.com/" . urlencode($uid) . "/" . $type . "/' width='".$width."' height='".$height."'></iframe>";
+					$code = '<iframe frameborder="0" src="https://www.vcita.com/' . urlencode($uid) . '/' . $type . '/" width="'. $width .'" height="'. $height .'"></iframe>';
 
 				}
 			}

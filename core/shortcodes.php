@@ -8,9 +8,16 @@ class ls_shortcodes {
 	 */
 	public $ls_helpers;
 
+	/**
+	 * Sets up helpers as global
+	 * @since 0.1.1
+	 */
+	public $ls_embed;
+
 	function __construct(){
 
 		$this->ls_helpers = new ls_helpers();
+		$this->ls_embed = new livesite_embed_code();
 
 		add_shortcode( 'livesite-pay', array( $this, 'livesite_pay_shortcode' ));
 		add_shortcode( 'vcita_pay_now', array( $this, 'livesite_pay_shortcode' ));
@@ -83,10 +90,15 @@ class ls_shortcodes {
 	 */
 	function livesite_contact_shortcode( $atts ) {
 
+		$ls_embed = $this->ls_embed;
+
 		// Attributes
 		$atts = shortcode_atts(array(
 			'title' 	=> 'Contact request',
-			'class'		=> ''
+			'class'		=> '',
+			'type'		=> 'contact',
+			'width' 	=> '100%',
+			'height' 	=> '450px',
 		), $atts, 'livesite');
 
 		// Set contact form title
@@ -103,8 +115,8 @@ class ls_shortcodes {
 		$uid = $settings['vcita_params']['uid'];
 
 		// Generate html
-		$html = '<iframe frameborder="0" '. $class .' src="http://www.vcita.com/widgets/contact_form/' . urlencode($uid) . '?ver=2" width="100%" height="470"></iframe>';
-
+		// $html = '<iframe frameborder="0" '. $class .' src="//www.vcita.com/widgets/contact_form/' . urlencode($uid) . '?ver=2" width="100%" height="470"></iframe>';
+		$html = $ls_embed->create_embed_code( $atts['type'], $uid, $atts['width'], $atts['height'] );
 
 		return $html;
 
@@ -136,7 +148,7 @@ class ls_shortcodes {
 		$uid = $settings['vcita_params']['uid'];
 
 		// Generate html
-		$html = '<iframe frameborder="0" '. $class .' src="http://www.vcita.com/widgets/scheduler/' . urlencode($uid) . '?ver=2" width="100%" height="470"></iframe>';
+		$html = '<iframe frameborder="0" '. $class .' src="//www.vcita.com/widgets/scheduler/' . urlencode($uid) . '?ver=2" width="100%" height="470"></iframe>';
 
 		return $html;
 

@@ -15,6 +15,7 @@ class ls_plugin_init {
 		require_once('system/parse_vcita_callback.php');
 		require_once('system/reset_plugin.php');
 		require_once('core/sdk.php');
+		require_once('core/embed_code.php');
 		require_once('core/shortcodes.php');
 
 		// UI Items that are used on every page
@@ -110,6 +111,28 @@ class ls_plugin_init {
 
 			$this->init_modules();
 
+			$main_module = ls_get_main_module();
+			$settings = ls_get_settings();
+
+			// For a one time redirect after vcita connect
+			if ( ! $settings['plugin_initially_activated'] ){
+
+				// Set plugin as already activated, this only allows it to happen once when we connect to vcita
+				ls_set_settings(array(
+					'plugin_initially_activated' => true
+				));
+
+				// Get main module data
+				$module_data = ls_get_module_data( $main_module );
+
+				// Redirect to main module page
+				$plugin_page_url = $ls_helpers->get_plugin_page_url( $module_data['slug'] );
+
+				wp_redirect( $plugin_page_url );
+				exit;
+				
+			}
+
 		}
 
 
@@ -136,7 +159,7 @@ class ls_plugin_init {
 
 		// This function runs for every plugin entry in the plugins page
 		// So, we have to check that we're only adding the link to our plugin
-		if ( $file != plugin_basename( __DIR__ . '/Livesite.php' ) )
+		if ( $file != plugin_basename( plugin_dir_path( __FILE__ ) ) . '/Livesite.php' )
 			return $links;
 
 		$redirect_url = $ls_helpers->get_plugin_path();
@@ -256,6 +279,8 @@ class ls_plugin_init {
 		// Check if user has connected his account to vcita
 		$is_vcita_connected = ls_is_vcita_connected();
 
+		$plugin_page_url = $ls_helpers->get_plugin_page_url('live-site-backoffice');
+
 		$main_module = ls_get_main_module();
 		$main_title = '';
 
@@ -348,32 +373,32 @@ class ls_plugin_init {
 		<div class="ls-section ls-section--last text-center">
 			<strong class="ls-section__title push-down-3"><?php _e('One Platform which enables all modules','livesite'); ?></strong>
 
-			<ul class="ls-promotions <?php echo $is_vcita_connected ? '' : ' ls-promotions--disabled' ?>">
-				<li class="ls-promotions__promotion">
+			<div class="ls-promotions">
+				<div class="ls-promotions__promotion<?php echo $is_vcita_connected ? '' : ' ls-promotions__promotion--disabled' ?>">
 					<div class="ls-promotions__icon ls-promotions__promotion--color-1">
 						<span class="icon-Optimization"></span>
 					</div>
 					<div class="ls-promotions__title"><?php _e('Backoffice','livesite'); ?></div>
 					<div class="ls-promotions__text"><?php _e('All livesite modules plug into a single business management dashboard','livesite'); ?></div>
-					<a href="<?php echo $ls_helpers->get_plugin_page_url('live-site-backoffice'); ?>" class="ls-promotions__url"><?php _e('Go to Backoffice','livesite'); ?></a>
-				</li><!--
-				--><li class="ls-promotions__promotion">
+					<a <?php echo $is_vcita_connected ? 'href="'. $plugin_page_url .'"' : ''; ?> class="ls-promotions__url"><?php _e('Go to Backoffice','livesite'); ?></a>
+				</div><!--
+				--><div class="ls-promotions__promotion">
 					<div class="ls-promotions__icon ls-promotions__promotion--color-2">
 						<span class="icon-Code-Window"></span>
 					</div>
 					<div class="ls-promotions__title"><?php _e('SDK for Developers','livesite'); ?></div>
 					<div class="ls-promotions__text"><?php _e('To achieve maximum flexibility use our LiveSite SDK','livesite'); ?></div>
-					<a <?php echo $is_vcita_connected ? 'href="http://developers.vcita.com/"' : ''; ?> target="_blank" class="ls-promotions__url"><?php _e('Go to SDK Documentation','livesite'); ?></a>
-				</li><!--
-				--><li class="ls-promotions__promotion">
+					<a href="//developers.vcita.com/" target="_blank" class="ls-promotions__url"><?php _e('Go to SDK Documentation','livesite'); ?></a>
+				</div><!--
+				--><div class="ls-promotions__promotion">
 					<div class="ls-promotions__icon ls-promotions__promotion--color-3">
 						<span class="icon-Partners"></span>
 					</div>
 					<div class="ls-promotions__title"><?php _e('Partner Program','livesite'); ?></div>
 					<div class="ls-promotions__text"><?php _e('Join over 8500 partners who leverage the vCita web engagement solution to extend their brand','livesite'); ?></div>
-					<a <?php echo $is_vcita_connected ? 'href="' . $partner_url . '"' : ''; ?> target="_blank" class="ls-promotions__url"><?php _e('Learn More','livesite'); ?></a>
-				</li>
-			</ul>
+					<a href="<?php echo $partner_url; ?>" target="_blank" class="ls-promotions__url"><?php _e('Learn More','livesite'); ?></a>
+				</div>
+			</div>
 		</div>
 
 		<?php ls_render_footer(); ?>

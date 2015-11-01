@@ -70,8 +70,8 @@ class livesite_payments {
 	/**
 	 * Create Settings Page
 	 * @since 0.1.0
-	 * @link http://codex.wordpress.org/Function_Reference/register_setting
-	 * @link http://codex.wordpress.org/Function_Reference/add_menu_page
+	 * @link //codex.wordpress.org/Function_Reference/register_setting
+	 * @link //codex.wordpress.org/Function_Reference/add_menu_page
 	 * @uses get_setings_page_id()
 	 */
 	function settings_page_setup(){
@@ -204,7 +204,7 @@ class livesite_payments {
 						'ls_pm_module_nonce' => wp_create_nonce( 'module-page' ),
 						'ls_pm_module_name' => $module_name,
 						'ls_pm_page_title' => $module_data['custom_page_title'],
-						'ls_pm_page_content' => $module_data['custom_page_content'],
+						'ls_pm_page_content' => $ls_helpers->get_random_page_content( $module_data['custom_page_content'] ),
 						'ls_pm_page_id' => $module_data['custom_page_id']
 					)
 				)
@@ -313,7 +313,7 @@ class livesite_payments {
 	/**
 	 * Payment Settings meta box
 	 * @since 0.1.0
-	 * @link http://codex.wordpress.org/Function_Reference/add_meta_box
+	 * @link //codex.wordpress.org/Function_Reference/add_meta_box
 	 */
 	function ls_payment_settings_mb(){
 
@@ -375,7 +375,7 @@ class livesite_payments {
 	/**
 	 * Payment Form and Button meta box
 	 * @since 0.1.0
-	 * @link http://codex.wordpress.org/Function_Reference/add_meta_box
+	 * @link //codex.wordpress.org/Function_Reference/add_meta_box
 	 */
 	function ls_payment_form_and_button_mb(){
 
@@ -504,7 +504,7 @@ class livesite_payments {
 			<tr>
 				<td>
 					<?php _e('Use the vCita SDK to add Online Payments to any element on your site','livesite'); ?>
-					<a href="http://vcita.com"> <?php _e('Access SDK documentation','livesite'); ?></a>
+					<a href="//vcita.com"> <?php _e('Access SDK documentation','livesite'); ?></a>
 				</td>
 			</tr>
 		</table>
@@ -515,7 +515,7 @@ class livesite_payments {
 	/**
 	 * Payment Settings meta box
 	 * @since 0.1.0
-	 * @link http://codex.wordpress.org/Function_Reference/add_meta_box
+	 * @link //codex.wordpress.org/Function_Reference/add_meta_box
 	 */
 	function ls_advanced_options(){
 
